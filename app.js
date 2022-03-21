@@ -28,7 +28,7 @@ const connect = ()=>{
 
     const bookSchema = new mongoose.Schema(
         {
-            likes:{type:Number, required:true, default:0,range:{min:{type:Number, min:0},max:{type:Number, max:1}}},
+            likes:{type:Number, required:true, default:0,range:{min:{type:Number, min:0}}},
             coverImage :{type:String, required:true,range:{max:{type:String, max: 1}}},
             content:{type:String, required:true},
             userId:{type:mongoose.Schema.Types.ObjectId,ref:"user", required:true},
