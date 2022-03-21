@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 const connect = ()=>{
     return mongoose.connect("mongodb+srv://harsh:harsh001@cluster0.84eyj.mongodb.net/Users?retryWrites=true&w=majority");}
 
-//  schemas
+// schemas
 
     const userSchema = new mongoose.Schema(
         {
