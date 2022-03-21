@@ -103,7 +103,7 @@ app.post("/comment",async(req,res)=>{
 
 app.get("/user:id",async(req,res)=>{
     try {
-        const user= await User.find(req.params.id).limit(10).lean().exec()
+        const user= await User.findOne(req.params.id).limit(10).lean().exec()
         return res.status(200).send({user: user,login:"login:successful"});
     } catch (error) {
         return res.status(500).send("login unsuccessful");
