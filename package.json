@@ -1,0 +1,27 @@
+{
+  "name": "unit4-c3-119",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harsh244007/unit4-c3-119.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harsh244007/unit4-c3-119/issues"
+  },
+  "homepage": "https://github.com/Harsh244007/unit4-c3-119#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.7",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.15"
+  }
+}
